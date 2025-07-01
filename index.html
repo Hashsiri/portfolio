@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="resources/style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" style="--i:1">Home</a></li>
+        <li><a href="#about" style="--i:2">About</a></li>
+        <li><a href="#projects" style="--i:3">Projects</a></li>
+        <li><a href="#contact" style="--i:4">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <main>
+
+  <section id="home" class="section">
+    <div class="section-left">
+      <h1>Hi, I'm Hashan Dananjaya</h1>
+      <h2 >I'm <span class="text"></span></h2>
+      <div class="home-sci">
+        <a href="https://wa.me/+447446772418?text=Hi%20Hashan%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" style="--i:8"><i class='bx bxl-whatsapp-square' ></i></a>
+        <a href="https://www.linkedin.com/in/hashan-dananjaya-41457b372/" target="_blank" style="--i:9"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Hashsiri" target= "blank" style="--i:9"><i class='bx bxl-github'></i></a>
+      </div>
+      <a href="./resources/my cv.pdf" target="_blank" download class="btn-download-cv">Download CV</a>
+    </div>
+    <div class="img">
+    <img src="./resources/undraw_programming_65t2.svg" alt="">
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="heading">About Me</h2>
+    <p>I'm a Junior Frontend Developer with a passion for building responsive, user-friendly web applications. I have hands-on experience with HTML, CSS, JavaScript, Bootstrap,
+       and React, and I’m currently enrolled in a full-stack web development bootcamp where I’m expanding my skills in technologies like Node.js, Express, and MongoDB.
+      <br>
+       I come from a marine engineering background, which has trained me to think logically, work under pressure, and solve complex problems — all qualities I now apply to coding.
+      <br>
+       I'm eager to join a collaborative development team where I can contribute to real-world projects, continue learning, and grow as a developer.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="heading">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="./resources/Weatherapp.png" alt="">
+        <div class="project-links">
+          <a href="https://react-weather-hash.netlify.app/" target="_blank" class="btn">Live Site</a>
+          <a href="https://github.com/Hashsiri/Weather-app" target="_blank" class="btn">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./resources/ecommerce.png" alt="">
+        <div class="project-links">
+          <a href="https://e-commercereact-hash.netlify.app/" target="_blank" class="btn">Live Site</a>
+          <a href="https://github.com/Hashsiri/ecommerceapp" target="_blank" class="btn">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./resources/portfolio.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="heading">Contact Me</h2>
+    <form action="https://formsubmit.co/hashan1991.uk@gmail.com" method="POST">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+  </footer>
+  </main>
+  <script src="resources/script.js"></script>
+</body>
+</html>
